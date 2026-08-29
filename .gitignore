@@ -1,0 +1,26 @@
+# Node / Angular
+todo-frontend/node_modules/
+todo-frontend/dist/
+todo-frontend/.angular/
+
+# Java / Maven
+todo-backend/target/
+todo-backend/.mvn/
+*.jar
+*.war
+
+# Docker / Infrastructure
+infrastructure/.env
+infrastructure/nginx/certs/*.crt
+infrastructure/nginx/certs/*.key
+infrastructure/backups/
+infrastructure/scripts/*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
